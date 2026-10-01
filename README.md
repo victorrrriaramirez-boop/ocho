@@ -1,18 +1,20 @@
-# RITUAL — demo de portfolio
+# RITUAL — propuesta de portfolio
 
-Sitio ficticio de cuidado personal con estética cálida. Incluye ingredientes revelados por el scroll y selector de rutinas. La marca, las actividades, productos y horarios son ejemplos conceptuales; no representan a una empresa real.
+Portada centrada en colección, recorrido de ingredientes, selector de rutinas y preguntas frecuentes.
 
-## Subir a GitHub y conectar con Vercel
+La empresa y los contenidos comerciales son ficticios. Esta web permite comparar una estética y una organización concretas; sus menús, enlaces, controles y desplegables funcionan dentro de la demo.
+
+## Publicar en GitHub y Vercel
 
 1. Descomprime el ZIP y crea un repositorio nuevo en GitHub.
-2. Sube `index.html`, `style.css`, `motion.js` y este `README.md` a la raíz del repositorio con **Add file → Upload files → Commit changes**.
-3. En [Vercel](https://vercel.com/new), elige **Import Git Repository**, conecta GitHub e importa ese repositorio.
-4. Deja el directorio raíz en `./` y pulsa **Deploy**. No requiere instalación ni comando de compilación.
-
-## Adaptación y contenido
-
-Las imágenes se cargan desde Unsplash. Antes de reutilizar el diseño para un cliente real, sustitúyelas por material autorizado y cambia la marca, los textos y los datos de ejemplo. Los selectores y controles funcionan dentro de la demostración, sin pagos, reservas ni datos persistentes. El menú móvil se puede cerrar con Escape y las animaciones respetan `prefers-reduced-motion`. No se usan asteriscos ni flechas decorativas.
+2. Sube `index.html`, `style.css`, `motion.js` y `README.md` a la raíz del repositorio.
+3. En https://vercel.com/new importa el repositorio de GitHub.
+4. Mantén el directorio raíz en `./` y pulsa Deploy. No necesita instalación ni compilación.
 
 ## Vista local
 
-Desde esta carpeta, ejecuta `python3 -m http.server 8000` y abre `http://localhost:8000`.
+Desde la carpeta del proyecto, ejecuta `python3 -m http.server 8000` y abre `http://localhost:8000`.
+
+## Personalización
+
+Sustituye nombres, textos, imágenes y el correo de ejemplo antes de adaptar esta demo a una empresa real. Las fotos se cargan desde Unsplash y las fuentes, cuando se utilizan, desde Google Fonts. Las animaciones respetan la preferencia de movimiento reducido del dispositivo. No se usan flechas ni asteriscos decorativos.
